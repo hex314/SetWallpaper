@@ -1,3 +1,8 @@
+'''
+程序功能：将指定路径的图片设置为桌面壁纸
+程序原理：先将图片转为bmp格式，然后调用win系统api设置壁纸
+'''
+
 from PIL import Image
 import os
 import win32gui,win32con,win32api
