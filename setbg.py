@@ -1,7 +1,5 @@
-'''
-程序功能：将指定路径的图片设置为桌面壁纸
-程序原理：先将图片转为bmp格式，然后调用win系统api设置壁纸
-'''
+#程序功能：将指定路径的图片设置为桌面壁纸
+#程序原理：先将图片转为bmp格式，然后调用win系统api设置壁纸
 
 from PIL import Image
 import os
@@ -21,4 +19,3 @@ def setWallpaperFromBMP(imgpath):
     win32gui.SystemParametersInfo(win32con.SPI_SETDESKWALLPAPER, bgg, 1+2)
     os.remove('tmp.bmp')
     print(imgpath)
-

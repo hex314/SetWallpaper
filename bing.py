@@ -1,6 +1,4 @@
-"""
-程序功能：抓取必应每日一图，设置为桌面壁纸
-"""
+#程序功能：抓取必应每日一图，设置为桌面壁纸
 
 import urllib.request
 import requests         
