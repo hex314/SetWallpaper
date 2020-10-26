@@ -1,5 +1,4 @@
 import requests
-import urllib
 import win32api,win32con,win32gui
 import time
 import os
